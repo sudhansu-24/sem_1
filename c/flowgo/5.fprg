@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sspru"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-19 04:13:51 PM"/>
+        <attribute name="created" value="c3NwcnU7U1VESEFOU1U7MjAyMy0xMS0xOTswNDowMzowNCBQTTsyNDY2"/>
+        <attribute name="edited" value="c3NwcnU7U1VESEFOU1U7MjAyMy0xMS0xOTswNDoxMzo1MSBQTTsxOzI1Nzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i, loop" type="Integer" array="False" size=""/>
+            <assign variable="loop" expression="0"/>
+            <output expression="&quot;ENTER A NUMBER&quot;" newline="True"/>
+            <input variable="n"/>
+            <for variable="i" start="2" end="n/2" direction="inc" step="1">
+                <if expression="n % i == 0">
+                    <then>
+                        <assign variable="loop" expression="1"/>
+                        <output expression="&quot;THE NUMBER IS NOT PRIME&quot;" newline="True"/>
+                        <breakpoint expression="" always="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <if expression="loop == 0">
+                <then>
+                    <output expression="&quot;NUMBER IS PRIME&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sspru"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-18 10:28:27 PM"/>
+        <attribute name="created" value="c3NwcnU7U1VESEFOU1U7MjAyMy0xMS0xODsxMDoyMzozNSBQTTsyNDY4"/>
+        <attribute name="edited" value="c3NwcnU7U1VESEFOU1U7MjAyMy0xMS0xODsxMDoyODoyNyBQTTsxOzI1ODI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Hello c language&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sspru"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-18 10:43:06 PM"/>
+        <attribute name="created" value="c3NwcnU7U1VESEFOU1U7MjAyMy0xMS0xODsxMDozMzo1NSBQTTsyNDcx"/>
+        <attribute name="edited" value="c3NwcnU7U1VESEFOU1U7MjAyMy0xMS0xODsxMDo0MzowNiBQTTsxOzI1NzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, r" type="Integer" array="False" size=""/>
+            <output expression="&quot;ENTER A NUMBER&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;CUBE IS&quot;" newline="True"/>
+            <assign variable="r" expression="a*a*a"/>
+            <output expression="r" newline="True"/>
+            <output expression="&quot;By SUDHANSU SEKHAR ROLL NO 42&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,6 @@
+Name: TONY	 Age: 35
+
+Name: LOKI	 Age: 40
+
+Name: PETER	 Age: 32
+

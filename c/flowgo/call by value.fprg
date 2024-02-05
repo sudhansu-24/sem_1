@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sspru"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-21 08:33:57 AM"/>
+        <attribute name="created" value="c3NwcnU7U1VESEFOU1U7MjAyMy0xMS0xOTswODowNTo1NiBQTTsyNDc5"/>
+        <attribute name="edited" value="c3NwcnU7U1VESEFOU1U7MjAyMy0xMS0yMTswODozMzo1NyBBTTsyOzI1Njg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2" type="Integer" array="False" size=""/>
+            <assign variable="num1" expression="10"/>
+            <assign variable="num2" expression="20"/>
+            <output expression="&quot;Before Call by Value: num1=&quot;" newline="False"/>
+            <output expression="num1" newline="False"/>
+            <output expression="&quot; , &quot;" newline="False"/>
+            <output expression="&quot;num2=&quot;" newline="False"/>
+            <output expression="num2" newline="True"/>
+            <call expression="callbyvalue(num1,num2)"/>
+            <output expression="&quot;After call by value: num1=&quot;" newline="False"/>
+            <output expression="num1" newline="False"/>
+            <output expression="&quot; , &quot;" newline="False"/>
+            <output expression="&quot;num2=&quot;" newline="False"/>
+            <output expression="num2" newline="True"/>
+        </body>
+    </function>
+    <function name="callbyreference" type="None" variable="">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <assign variable="a" expression="*a"/>
+            <assign variable="b" expression="*b"/>
+            <assign variable="*a" expression="*a * 2"/>
+            <assign variable="*b" expression="*b * 2"/>
+            <output expression="&quot;Inside call by reference: *a = &quot;" newline="False"/>
+            <output expression="*a" newline="False"/>
+            <output expression="&quot; , &quot;" newline="True"/>
+            <output expression="&quot;*b = &quot;" newline="True"/>
+            <output expression="*b" newline="True"/>
+        </body>
+    </function>
+    <function name="callbyvalue" type="None" variable="">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <assign variable="a" expression="a * 2"/>
+            <assign variable="b" expression="b * 2"/>
+            <output expression="&quot;Inside call by value: a=&quot;" newline="False"/>
+            <output expression="a" newline="False"/>
+            <output expression="&quot; , &quot;" newline="False"/>
+            <output expression="&quot;b=&quot;" newline="False"/>
+            <output expression="b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

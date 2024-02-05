@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sspru"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-19 07:49:55 PM"/>
+        <attribute name="created" value="c3NwcnU7U1VESEFOU1U7MjAyMy0xMS0xOTswNzo0MzoxMiBQTTsyNDcy"/>
+        <attribute name="edited" value="c3NwcnU7U1VESEFOU1U7MjAyMy0xMS0xOTswNzo0OTo1NSBQTTsyOzI1OTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num, rem, bin, place" type="Integer" array="False" size=""/>
+            <assign variable="bin" expression="0"/>
+            <assign variable="place" expression="1"/>
+            <output expression="&quot;ENTER A NUMBER&quot;" newline="True"/>
+            <input variable="num"/>
+            <while expression="num &gt; 0">
+                <assign variable="rem" expression="num % 2"/>
+                <assign variable="num" expression="num / 2"/>
+                <assign variable="bin" expression="bin + (rem * place)"/>
+                <assign variable="place" expression="place * 10"/>
+            </while>
+            <output expression="&quot;BINARY = &quot;" newline="False"/>
+            <output expression="bin" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

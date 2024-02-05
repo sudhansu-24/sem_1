@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sspru"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-19 05:04:14 PM"/>
+        <attribute name="created" value="c3NwcnU7U1VESEFOU1U7MjAyMy0xMS0xOTswNDo1NDowOCBQTTsyNDc2"/>
+        <attribute name="edited" value="c3NwcnU7U1VESEFOU1U7MjAyMy0xMS0xOTswNTowNDoxNCBQTTsyOzI1Nzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;ENTER VALUE FOR A &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;ENTER VALUE FOR B &quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="a" expression="a + b"/>
+            <assign variable="b" expression="a - b"/>
+            <assign variable="a" expression="a - b"/>
+            <output expression="&quot;AFTER SWAPPING VALUE OF A is &quot;" newline="False"/>
+            <output expression="a" newline="True"/>
+            <output expression="&quot;AFTER SWAPPING VALUE OF B is &quot;" newline="False"/>
+            <output expression="b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

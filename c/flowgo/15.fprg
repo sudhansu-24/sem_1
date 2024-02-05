@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sspru"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-19 07:43:06 PM"/>
+        <attribute name="created" value="c3NwcnU7U1VESEFOU1U7MjAyMy0xMS0xOTswNjoyMzowMiBQTTsyNDY4"/>
+        <attribute name="edited" value="c3NwcnU7U1VESEFOU1U7MjAyMy0xMS0xOTswNzo0MzowNiBQTTsxOzI1ODM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="rows, i, j" type="Integer" array="False" size=""/>
+            <declare name="ch" type="String" array="False" size=""/>
+            <assign variable="ch" expression="'A'"/>
+            <output expression="&quot;ENTER THE NO. OF ROWS&quot;" newline="True"/>
+            <input variable="rows"/>
+            <for variable="i" start="0" end="rows" direction="inc" step="1">
+                <for variable="j" start="0" end="i" direction="inc" step="1">
+                    <assign variable="ch" expression="ch + i"/>
+                    <output expression="ch" newline="True"/>
+                </for>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
